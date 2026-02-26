@@ -1,0 +1,28 @@
+I've used Nvidia's Jetson Nano as the device of choice to develope and execute this program
+
+If you want to utilize the Jetson Nano or similar please refer to my Jetson-Nano-YOLO-Deployment- project on my Github on how to setup the Jetson
+
+Else if you're using windows then simply follow videos or websites on how to install ultralytics on your OS
+
+INSTRUCTIONS:
+1.) Install Python Version >=3.8
+2.) Setup CV2 and ultralytics onto your OS
+3.) Download my python and jpg file into a single file directory location
+4.) Open up a compiler or terminal to execute the Detection Code
+
+Short comings running this program on Jetson's Ubuntu OS:
+I'd tried to make the program play a mp3 sound files whenever class "person" is detected
+but ubuntu or linux does not support mp3 sound files (which is silly), so in place of a
+mp3 file, I'd made the program open a jpg file when is a person is detected in the camera
+frame.
+
+PURPOSE:
+To give people an idea on how to single out certain classes in a model and use that to produce certain outputs
+when detected on camera frame.
+
+IDEAS:
+1.) You can defineity make a security system where if class "person" is detected, you can make the program take a picture of
+the "person" object and send to your personal email
+
+2.) You can rework this framework to control a robotic arm and make it do certain behaviors base on classes within your model of
+choice
